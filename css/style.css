@@ -33,6 +33,10 @@ header a {
     bottom: 0;
     left: 0;
     right: 0;
+    -webkit-transition: background-image 0.5s ease-in-out;
+    -moz-transition: background-image 0.5s ease-in-out;
+    -o-transition: background-image 0.5s ease-in-out;
+    transition: background-image 0.5s ease-in-out;
 }
 .hero-image h1, .hero-image h2 {
     color: #FAF9FA;
